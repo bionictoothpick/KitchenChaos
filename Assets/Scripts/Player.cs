@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
 
 //        Debug.Log(Time.deltaTime);
+// This is simple a test.
     } 
     
 }
